@@ -5,6 +5,27 @@
 /// Uses most-often decalrations (possibly used in all projects)
 ////
 
+/**
+ * Add the correct display in IE 9-.
+ * 1. Add the correct display in Edge, IE, and Firefox.
+ * 2. Add the correct display in IE.
+ */
+
+article,
+aside,
+details, /* 1 */
+figcaption,
+figure,
+footer,
+header,
+main, /* 2 */
+menu,
+nav,
+section,
+summary { /* 1 */
+  display: block;
+}
+
 /// Set up a decent box model on the root element
 html {
   box-sizing: border-box;
