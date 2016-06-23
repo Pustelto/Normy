@@ -52,12 +52,6 @@ html {
   box-sizing: inherit;
 }
 
-/// Allow element to span entire height of screen and absolute positioning
-html, body {
-  height: 100%;
-  position: relative;
-}
-
 /// Deactivate default body margin
 /// Reset for typografic rules
 /// Reset of default margin for figure
