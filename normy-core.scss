@@ -73,3 +73,10 @@ ul, ol {
   margin: 0;
   padding: 0;
 }
+
+/// @TODO - move to normy-forms
+/// Button normalization for webkit browsers 
+/// (user agent font property may cause issues in aligment)
+button {
+  font: inherit;
+}
